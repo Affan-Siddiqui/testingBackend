@@ -40,7 +40,6 @@ connectDB().then(() => {
     app.listen(5000, () => {
         console.log("Server has started at : http://localhost:5000");  
         console.log('db is connected');
-        
     })
 }).catch((err) => {
     console.log(err);

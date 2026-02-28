@@ -22,6 +22,8 @@ let data = [
 
 Router.get("/", (req, res) => {
     res.json(data);
+    console.log("hello");
+    
 })
 
 Router.get("/:id", (req, res) => {
